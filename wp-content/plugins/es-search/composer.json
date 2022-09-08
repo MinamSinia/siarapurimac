@@ -1,0 +1,18 @@
+{
+    "name": "drinux/wp-es",
+    "autoload": {
+        "psr-4": {
+            "EsSearch\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claudio Rodriguez",
+            "email": "claudio.rodriguez@drinux.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "elasticsearch/elasticsearch": "~7.0"
+    }
+}
